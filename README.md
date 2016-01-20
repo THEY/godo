@@ -258,7 +258,7 @@ user := Prompt("user: ")
 To get password
 
 ```go
-password := PromptPassword("password: ")
+password, err := PromptPassword("password: ")
 ```
 
 ## Godofile Run-Time Environment
